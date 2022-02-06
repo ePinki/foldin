@@ -8,9 +8,19 @@ html {
   box-sizing: inherit;
 }
 
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .page {
   height: 100%;
   font-family: var(--font-family, sans-serif);
+  font-weight: 500;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -46,7 +56,7 @@ a {
   cursor: pointer;
 }
 
-.list-reset {
+li {
   list-style: none;
   margin: 0;
   padding: 0;
