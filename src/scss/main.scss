@@ -340,3 +340,45 @@
     }
   }
 }
+
+.discount {
+  &__wrapper {
+    display: flex;
+    margin-bottom: 260px;
+    width: 1520px;
+    height: 465px;
+    border: solid 3px #EEF1F4;
+    background: linear-gradient(90deg, rgba(39,105,169,0.05926120448179273) 0%, rgba(211,156,85,0.06766456582633051) 100%);  
+  }
+
+  &__left {
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__right {
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+
+  &__title {
+    max-width: 650px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 20px;
+    color: #252D35;
+  }
+
+  &__text {
+    max-width: 710px;
+    margin-bottom: 15px;
+  }
+
+  &__fat-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
